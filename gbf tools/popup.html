@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { 
+                min-width: 120px; 
+                overflow-x: hidden; 
+                font-family: Arial, sans-serif; 
+                font-size: 12px; 
+            }
+            input, textarea { 
+                width: 420px; 
+            }
+            input#save { 
+                font-weight: bold; width: auto; 
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <p>Crystal rolls: <br><span id="xtal">N/a</span></p>
+        <p>Single ticket rolls: <br> <span id="tens">N/a</span></p>
+        <p>10-part ticket rolls: <br> <span id="singles">N/a</span></p>
+        <p>total rolls: <br> <span id="total">N/a</span></p>
+        <p>Sparks: <br> <span id="spark">N/a</span></p>
+
+        <button type="button" id="setdata">Calc rolls</button>
+        
+    </body>
+</html>
